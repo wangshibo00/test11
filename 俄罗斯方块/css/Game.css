@@ -1,0 +1,46 @@
+*{
+		margin: 0;
+		padding: 0;
+	}
+	body{
+		background-color : #333;
+	}
+	table,tr,td{
+		border: 1px solid #ccc;
+		border-collapse: collapse;
+		margin: 0 auto;
+	}
+	td{
+		width: 20px;
+		height: 20px;
+	}
+	td.T{
+		background-image: url('../img/0.jpg');
+	}
+	td.L{
+		background-image: url('../img/1.jpg');
+	}
+	td.J{
+		background-image: url('../img/2.jpg');
+	}
+	td.S{
+		background-image: url('../img/3.jpg');
+	}
+	td.Z{
+		background-image: url('../img/4.jpg');
+	}
+	td.I{
+		background-image: url('../img/5.jpg');
+	}
+	td.O{
+		background-image: url('../img/6.jpg');
+	}
+	#main{
+	}
+	#box{
+		position: absolute;
+		top:0px;
+		left:50%;
+		margin-left: 150px;
+
+	}
